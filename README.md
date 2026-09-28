@@ -1,55 +1,55 @@
 # 360° Education Business Analysis Dashboard
 
 ## Project Overview
-The **360° Education Business Analysis** project is a data-driven analytics solution designed to track, evaluate, and optimize the operational, financial, and placement health of a multi-branch professional training institute. 
+The 360° Education Business Analysis project is an end-to-end analytics solution designed to evaluate and optimize the operational, financial, and placement performance of a multi-branch professional training institute.
 
-Spanning a 17-month period, this project consolidates key performance indicators (KPIs) across five geographic branches (**Karve Nagar, Nagpur, Hadapsar, Pimpri, and Chinchwad**) and five core technology domains (**Data Science, Data Analytics, Java Full Stack, Python Full Stack, and Software Testing**).
+Spanning a 17-month period, this project consolidates key performance indicators (KPIs) across five geographic branches (Karve Nagar, Nagpur, Hadapsar, Pimpri, and Chinchwad) and five core technology domains (Data Science, Data Analytics, Java Full Stack, Python Full Stack, and Software Testing).
 
 ---
 
 ## Problem Statement
-Despite robust top-line revenue ($66\text{M}$) and consistent student acquisition ($2\text{K}$ admissions), the institution faced critical structural bottlenecks:
-* **Revenue Leakage:** 21.2% ($14\text{M}$) of total revenue remained uncollected, with 50% of the student base carrying outstanding fee balances.
-* **Low Placement Conversion:** The institutional placement rate sat at **34.85%**, despite over 6,000 placement calls being generated.
-* **Marketing Inefficiencies:** Budget allocation lacked prioritization toward high-converting channels like LinkedIn and YouTube.
-* **Data Anomaly:** A sharp, unnatural metric drop-off occurred in **May 2025**, indicating systemic data-logging gaps.
+Despite robust top-line revenue ($66\text{M}$) and consistent student acquisition ($2\text{K}$ admissions):
+* **Revenue Leakage:** 21.21% ($14\text{M}$) of total revenue remains uncollected, with 73.25% of the active student base carrying outstanding fee balances. 
+* **Low Placement Conversion:**The institutional placement rate sits at 34.85%, despite over 6,000 placement calls being generated across partner networks.
+* **Marketing Inefficiencies:**Lead conversion sits at 31.90% ($638$ converted out of $2\text{K}$ total leads), requiring ad budget re-allocation toward high-performing channels like LinkedIn, YouTube, and direct Walk-Ins.
+* **Data Anomaly:**A sharp, unnatural metric drop-off occurs in May 2025 across admissions and revenues, indicating potential tracking cutoffs or seasonal exam disruptions.
 
 ---
 
 ## Project Objectives
-* **Financial Optimization:** Reduce outstanding receivables from $14\text{M}$ to under $3\text{M}$ and scale collection efficiency from **79.45% to >95%**.
-* **Placement Acceleration:** Boost the placement rate from **34.85% to 65%** by introducing technical pre-screenings and AI-powered interview preparation.
-* **Marketing ROI Maximization:** Raise the lead conversion rate from **31.90% to 40%** by shifting ad spend dynamically to LinkedIn and YouTube.
-* **Data Governance:** Fix sales funnel visual errors and resolve the May 2025 tracking cutoff anomaly to secure real-time data integrity.
+* **Financial Optimization:** Improve collection efficiency from 79.45% toward >90% by establishing milestone-gated payment rules to recover $14\text{M}$ in pending receivables. 
+* **Placement Acceleration:** Boost overall placement rates from 34.85% toward 50%+ by targeting the 414 candidates receiving $5+$ calls without converting through pre-screening and mock interview bootcamps.
+* **Marketing ROI Maximization:** Raise lead conversion rates from 31.90% to 40% by dynamically prioritizing top-converting sources like LinkedIn ($123$ conversions) and YouTube ($105$ conversions).
+* **Data Governance:**Streamline DAX measures and visualization funnels to ensure real-time reporting accuracy across executive views.
 
+**Key Performance Indicators (KPI Overview)**
+CategoryKey MetricValueFinancialTotal Revenue Generated$66\text{M}$FinancialTotal Fees Collected$52\text{M}$ ($79.45\%$ collection rate)FinancialPending Receivables$14\text{M}$ across $1\text{K}$ students ($73.25\%$ balance rate)Sales & MarketingTotal Leads Generated$2\text{K}$ leadsSales & MarketingLead Conversion Rate$31.90\%$ ($638$ converted)Sales & MarketingTop Lead SourceLinkedIn ($123$ conversions)PlacementsOverall Placement Rate$34.85\%$ ($697$ placed out of $2\text{K}$)PlacementsPlacement Calls Delivered$6\text{K}$ calls ($414$ students with $\ge 5$ calls)PlacementsAverage Package (CTC)$5.24\text{ LPA}$
 ---
 
 ## Dashboard Architecture & Key Findings
-
-The analysis is broken down into four distinct interactive dashboards:
+The solution is divided into four distinct interactive Power BI pages:
 
 ### 1. Executive Overview
-* **Focus:** High-level institutional health across revenue, admissions, and placements.
-* **Key Finding:** Data Analytics (24.52%) and Data Science (23.92%) drive nearly half of the organization's entire revenue.
-**[Executive Overview](https://github.com/Gayatrik04/360-Education-Business-Analysis/blob/main/360%20Education%20Business%20Analysis/Dashboard%20screenshot/Executive%20Overview.png)**
-
+* **Focus:**High-level executive health tracking across overall revenue, total enrollments, and conversion performance.
+* **Key Finding:**Data Analytics ($16\text{M}$ / $24.52\%$) and Data Science ($16\text{M}$ / $23.92\%$) drive nearly half ($48.44\%$) of total institutional revenue.
+**[Executive Overview](Dashboard_screenshot\Executive_Overview.png)**
 
 ### 2. Sales & Admission Analysis
-* **Focus:** Lead generation funnels, channel performance, and conversion metrics.
-* **Key Finding:** LinkedIn is the top-performing conversion channel (123 conversions), closely followed by Walk-Ins and YouTube.
-**[Sales & Admission Analysis](https://github.com/Gayatrik04/360-Education-Business-Analysis/blob/main/360%20Education%20Business%20Analysis/Dashboard%20screenshot/sales%20and%20admission%20analysis.png)**
+* **Focus:**Lead generation funnels, marketing acquisition channels, and branch-level lead conversion ratios. 
+* **Key Finding:**LinkedIn is the single highest digital lead converter ($123$ conversions), followed closely by organic sources: Walk-Ins ($105$), YouTube ($105$), and Student Referrals ($104$). 
+**[Sales & Admission Analysis](Dashboard_screenshot\sales_and_admission_analysis.png)**
 
 
 ### 3. Placement Analysis
-* **Focus:** Employment trends, course placement rates, and corporate hiring partnerships.
-* **Key Finding:** Wipro (296), Capgemini (293), and TCS (293) serve as the core hiring partners. Software Testing holds the highest placement rate (37%).
-**[Placement Analysis](https://github.com/Gayatrik04/360-Education-Business-Analysis/blob/main/360%20Education%20Business%20Analysis/Dashboard%20screenshot/Placement%20Analysis.png)**
+* **Focus:**Student employment funnels, course-wise hiring performance, and recruitment company distributions. 
+* **Key Finding:**Software Testing holds the highest course placement rate at 37.21% ($144$ placed). Top hiring partners include Wipro ($296$), Capgemini ($293$), Accenture ($292$), Tech Mahindra ($274$), Infosys ($268$), and Cognizant ($260$). 
+**[Placement Analysis](Dashboard_screenshot\Placement_Analysis.png)**
 
 
 ### 4. Financial Analysis
-* **Focus:** Revenue collection trends, cash flow pipelines, and pending debts.
-* **Key Finding:** A staggering **73.25% of students have pending fees**, creating a major operational capital crunch.
-**[Financial Analysis](https://github.com/Gayatrik04/360-Education-Business-Analysis/blob/main/360%20Education%20Business%20Analysis/Dashboard%20screenshot/Financial%20Analsis.png)**
+* **Focus:**Monthly fee collection trends, cash flow breakdown by payment modes, and outstanding debt monitoring.
+* **Key Finding:**73.25% of students have pending fee installments. Payment channels remain evenly distributed: Cash ($26.86\%$), Cards ($24.97\%$), Net Banking ($24.29\%$), and UPI ($23.89\%$).
+**[Financial Analysis](Dashboard_screenshot\Financial_Analsis.png)**
 
 ---
 
@@ -64,18 +64,18 @@ The analysis is broken down into four distinct interactive dashboards:
 ---
 
 ## Tech Stack & Tools Used
-* **Data Visualization / Business Intelligence:** Power BI / Tableau
-* **Data Modeling & Analytics:** SQL, DAX expressions
-* **Documentation & Framework:** Markdown
+* **Data Visualization & Business Intelligence:** Power BI (Desktop & Service)
+* **Data Modeling & Analytics:**DAX (Data Analysis Expressions), Star Schema Modeling, Power Query (ETL)
+* **Documentation & Framework:**Markdown, GitHub
 
 ---
 
 ## Repository Structure
 ```text
-├── Dashboards/             # Contains dashboard screenshots / export files
-├── Data/                   # Mock dataset / schema details (if applicable)
-├── Report/                 # Data transformation and aggregation queries
-└── README.md               # Project documentation
+├── Dashboards/             # High-resolution dashboard screenshots and export assets
+├── Data/                   # Raw & transformed dataset schema
+├── Report/                 # Power BI model file (.pbix) and analytical documentation
+└── README.md               # Executive project documentation
 ```
 
 ---
