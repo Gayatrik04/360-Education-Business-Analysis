@@ -21,9 +21,6 @@ Despite robust top-line revenue ($66\text{M}$) and consistent student acquisitio
 * **Placement Acceleration:** Boost overall placement rates from 34.85% toward 50%+ by targeting the 414 candidates receiving $5+$ calls without converting through pre-screening and mock interview bootcamps.
 * **Marketing ROI Maximization:** Raise lead conversion rates from 31.90% to 40% by dynamically prioritizing top-converting sources like LinkedIn ($123$ conversions) and YouTube ($105$ conversions).
 * **Data Governance:**Streamline DAX measures and visualization funnels to ensure real-time reporting accuracy across executive views.
-
-**Key Performance Indicators (KPI Overview)**
-CategoryKey MetricValueFinancialTotal Revenue Generated$66\text{M}$FinancialTotal Fees Collected$52\text{M}$ ($79.45\%$ collection rate)FinancialPending Receivables$14\text{M}$ across $1\text{K}$ students ($73.25\%$ balance rate)Sales & MarketingTotal Leads Generated$2\text{K}$ leadsSales & MarketingLead Conversion Rate$31.90\%$ ($638$ converted)Sales & MarketingTop Lead SourceLinkedIn ($123$ conversions)PlacementsOverall Placement Rate$34.85\%$ ($697$ placed out of $2\text{K}$)PlacementsPlacement Calls Delivered$6\text{K}$ calls ($414$ students with $\ge 5$ calls)PlacementsAverage Package (CTC)$5.24\text{ LPA}$
 ---
 
 ## Dashboard Architecture & Key Findings
