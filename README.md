@@ -29,24 +29,24 @@ The solution is divided into four distinct interactive Power BI pages:
 ### 1. Executive Overview
 * **Focus:**High-level executive health tracking across overall revenue, total enrollments, and conversion performance.
 * **Key Finding:**Data Analytics ($16\text{M}$ / $24.52\%$) and Data Science ($16\text{M}$ / $23.92\%$) drive nearly half ($48.44\%$) of total institutional revenue.
-**[Executive Overview](Dashboard_screenshot\Executive_Overview.png)**
+**[Executive Overview](Dashboard_screenshot/Executive_Overview.png)**
 
 ### 2. Sales & Admission Analysis
 * **Focus:**Lead generation funnels, marketing acquisition channels, and branch-level lead conversion ratios. 
 * **Key Finding:**LinkedIn is the single highest digital lead converter ($123$ conversions), followed closely by organic sources: Walk-Ins ($105$), YouTube ($105$), and Student Referrals ($104$). 
-**[Sales & Admission Analysis](Dashboard_screenshot\sales_and_admission_analysis.png)**
+**[Sales & Admission Analysis](Dashboard_screenshot/sales_and_admission_analysis.png)**
 
 
 ### 3. Placement Analysis
 * **Focus:**Student employment funnels, course-wise hiring performance, and recruitment company distributions. 
 * **Key Finding:**Software Testing holds the highest course placement rate at 37.21% ($144$ placed). Top hiring partners include Wipro ($296$), Capgemini ($293$), Accenture ($292$), Tech Mahindra ($274$), Infosys ($268$), and Cognizant ($260$). 
-**[Placement Analysis](Dashboard_screenshot\Placement_Analysis.png)**
+**[Placement Analysis](Dashboard_screenshot/Placement_Analysis.png)**
 
 
 ### 4. Financial Analysis
 * **Focus:**Monthly fee collection trends, cash flow breakdown by payment modes, and outstanding debt monitoring.
 * **Key Finding:**73.25% of students have pending fee installments. Payment channels remain evenly distributed: Cash ($26.86\%$), Cards ($24.97\%$), Net Banking ($24.29\%$), and UPI ($23.89\%$).
-**[Financial Analysis](Dashboard_screenshot\Financial_Analsis.png)**
+**[Financial Analysis](Dashboard_screenshot/Financial_Analsis.png)**
 
 ---
 
